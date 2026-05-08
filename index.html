@@ -250,93 +250,114 @@
             text-align: center;
         }
 
-        @media (max-width: 768px) {
+       @media (max-width: 768px) {
 
-            html,
-            body {
-                overflow-x: hidden;
-            }
+    html,
+    body {
+        overflow-x: hidden;
+    }
 
-            body {
-                justify-content: flex-start;
-                padding-top: 20px;
-            }
+    body {
+        padding: 15px 0 30px;
+    }
 
-            header {
-                margin-bottom: 50px;
-                padding: 0 15px;
-            }
+    header {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 25px;
+    }
 
-            header h1 {
-                font-size: 2rem;
-            }
+    header h1 {
+        font-size: 1.9rem;
+        line-height: 1.1;
+    }
 
-            header p {
-                font-size: 0.9rem;
-                line-height: 1.5;
-            }
+    header p {
+        font-size: 0.82rem;
+        line-height: 1.55;
+        padding: 0;
+    }
 
-            .carousel {
-                height: 430px;
-                margin-top: 30px;
-            }
+    .carousel {
+        width: 100%;
+        height: 400px;
+        margin-top: 10px;
+        overflow: visible;
+    }
 
-            .book {
-                width: 220px;
-                height: 360px;
-                margin-left: -120px;
-                margin-top: -195px;
-            }
+    .book {
+        width: 190px;
+        height: 330px;
+        margin-left: -95px;
+        margin-top: -165px;
+        border-radius: 22px;
+    }
 
-            .book img,
-            .book video {
-                height: 230px;
-                object-fit: contain;
-            }
+    .media-container {
+        height: 200px;
+    }
 
-            .book-content {
-                padding: 14px;
-            }
+    .book img,
+    .book video {
+        height: 200px;
+        padding: 6px;
+    }
 
-            .book-content h2 {
-                font-size: 1.2rem;
-            }
+    .book-content {
+        padding: 10px;
+    }
 
-            .book-content p {
-                font-size: 0.7rem;
-                line-height: 1.45;
-            }
+    .book-content h2 {
+        font-size: 0.95rem;
+        margin-bottom: 6px;
+    }
 
-            .book:nth-child(1) {
-                transform: rotateY(0deg) translateZ(220px);
-            }
+    .book-content p {
+        font-size: 0.66rem;
+        line-height: 1.35;
+    }
 
-            .book:nth-child(2) {
-                transform: rotateY(60deg) translateZ(220px);
-            }
+    .memory-label {
+        font-size: 0.65rem;
+        padding: 6px 10px;
+    }
 
-            .book:nth-child(3) {
-                transform: rotateY(120deg) translateZ(220px);
-            }
+    .play-message {
+        font-size: 0.7rem;
+        padding: 6px 10px;
+    }
 
-            .book:nth-child(4) {
-                transform: rotateY(180deg) translateZ(220px);
-            }
+    .book:nth-child(1) {
+        transform: rotateY(0deg) translateZ(190px);
+    }
 
-            .book:nth-child(5) {
-                transform: rotateY(240deg) translateZ(220px);
-            }
+    .book:nth-child(2) {
+        transform: rotateY(60deg) translateZ(190px);
+    }
 
-            .book:nth-child(6) {
-                transform: rotateY(300deg) translateZ(220px);
-            }
+    .book:nth-child(3) {
+        transform: rotateY(120deg) translateZ(190px);
+    }
 
-            footer {
-                margin-top: 10px;
-                padding: 10px 20px 25px;
-                font-size: 0.85rem;
-            }
-        }
+    .book:nth-child(4) {
+        transform: rotateY(180deg) translateZ(190px);
+    }
+
+    .book:nth-child(5) {
+        transform: rotateY(240deg) translateZ(190px);
+    }
+
+    .book:nth-child(6) {
+        transform: rotateY(300deg) translateZ(190px);
+    }
+
+    footer {
+        margin-top: 0;
+        padding: 10px 20px 20px;
+        font-size: 0.75rem;
+        text-align: center;
+    }
+}
     </style>
 </head>
 
